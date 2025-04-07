@@ -1,12 +1,10 @@
 # Caesar Cipher: A Study in Classical Encryption
 
-This repository explores the Caesar Cipher, a foundational technique in cryptography, with a focus on both its traditional form and a revised implementation.
+This directory the Caesar Cipher, a foundational technique in cryptography, with a focus on both its traditional form and a revised implementation.
 
 ## Introduction
 
-The Caesar Cipher is recognized as one of the simplest and earliest encryption methods. It falls under the category of a Substitution Cipher.
-
-In this cipher, plaintext is transformed by shifting each letter a fixed number of positions up or down the alphabet. The amount of this shift is known as the "key".
+The Caesar Cipher falls under the category of a Substitution Cipher. In this cipher, plaintext is transformed by shifting each letter a fixed number of positions up or down the alphabet. The amount of this shift is known as the "key".
 
 For example, if we encrypt "I AM RACHIT SHAH" with a key of 5, the result is "N FR WFHMNY XMFM".
 
@@ -37,14 +35,3 @@ Consider the example "I AM RACHIT SHAH" encrypted as "N FH MFXMDY XCFC" with a k
 * The revised approach decrypts to "I AC HASHYT SXAX".
 
 This demonstrates the enhanced security of the revised method compared to the original.
-
-## Applications
-
-The Caesar cipher, despite its simplicity, has found use in various contexts:
-
-* **Education:** It's used to teach fundamental encryption concepts.
-* **Puzzles and Games:** It appears in escape rooms and cryptographic puzzles.
-* **Basic Obfuscation:** It can mask text in situations where strong security isn't needed.
-* **Historical Study:** It's studied in research on ancient cryptography.
-* **Security Demonstrations:** It serves to illustrate the need for more robust encryption methods.
-* **Historical Reenactments:** It can add authenticity to simulations of historical periods.
