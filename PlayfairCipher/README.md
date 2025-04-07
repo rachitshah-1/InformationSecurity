@@ -19,7 +19,7 @@ The Playfair cipher is vulnerable to known-plaintext attacks[cite: 68]. If an at
 ## Revised Approach
 The revised approach enhances security by using two keywords instead of one[cite: 74, 75]. Employing two keywords and their specific placement in the matrix significantly increases the cipher's strength. Even if one keyword is compromised, decryption remains difficult without the second keyword and the matrix arrangement.
 
-**Comparison of Original and Revised Approaches:**
+## Comparison of Original and Revised Approaches:
 * **Matrix Construction**:
    * Original: The first keyword fills the matrix row by row.
    * Revised: The first keyword fills the matrix row by row, and the second keyword fills the columns.
