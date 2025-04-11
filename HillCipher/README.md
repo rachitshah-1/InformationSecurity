@@ -3,11 +3,11 @@ This directory explores the Hill Cipher, an encryption technique that uses linea
 
 ##   Introduction
 The Hill Cipher is an encryption method that employs linear algebra to secure messages through matrix multiplication.
-In the Hill Cipher:
+Here's how it works:
 * Plaintext is divided into blocks of letters.
-* These letters are represented by numerical values based on their position in the alphabet (e.g., A=0, B=1, ..., Z=25).
-* Each block is multiplied by an invertible key matrix.
-* This multiplication produces a new set of numerical values, forming the ciphertext.
+* Each letter is converted into a numerical value based on its alphabetical position (e.g., A=0, B=1, ..., Z=25).
+* These numerical blocks are multiplied by a predetermined invertible key matrix.
+* The resulting numerical blocks are converted back into letters, producing the ciphertext.
 
 This method encrypts multiple letters simultaneously, enhancing security compared to simpler ciphers. However, it's important to note that the Hill Cipher is vulnerable to known-plaintext attacks and frequency analysis.
 
@@ -27,8 +27,8 @@ In the original Hill Cipher:
     11  15
     ```
 
-* Plaintext Blocks: \[4, 23] and \[0, 12]  (representing EX and AM) [cite: 105]
-* Ciphertext: QZWY [cite: 108]
+* Plaintext Blocks: \[4, 23] and \[0, 12]  (representing EX and AM)
+* Ciphertext: QZWY
 
 ##   Revised Approach
 The revised approach to the Hill Cipher alters the way the key matrix is filled. [cite: 115, 116, 117] Instead of the traditional row-wise (row-major order), the key matrix is filled column-wise (column-major order). [cite: 115, 116, 117] This change affects how the matrix interacts with the plaintext during encryption and decryption. [cite: 116, 117]
